@@ -150,7 +150,7 @@ class Arduino:
                                addresses[:, :, np.newaxis]), axis=2)
         
         # Every time a pin_number's mode is updated, telemetrix tries to call self.__board.digital_callbacks[pin_number]
-        # This yields a key error which doesn't affect functionality but looks scary; the next line avoids the error
+        # This yields a warning if pin_number is not a valid index; the next line prevents the warning
         for pin in pins[:, 0]: self.__board.digital_callbacks[int(pin)] = None
 
         return data
