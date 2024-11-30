@@ -5,7 +5,7 @@ _________________________________
 **Part A: Installing Dependencies**
 1. Download the Arduino IDE: https://www.arduino.cc/en/software
 2. Open the IDE and select Tools/Manage Libraries
-3. Search for Telemetrix4Arduino and install the library
+3. Search for Telemetrix4Arduino and install the library with dependencies
 4. Pull the LED-Array-v3.0 repository
 5. Move telemetrix, telemetrix_pca9685, and telemetrix_controller.py to the directory that Python searches for packages to import
 
