@@ -1,5 +1,5 @@
 _________________________________
-Instructions for using the package to control LEDs using an Arduino
+**Instructions for Using LED-Array-v3.0**
 _________________________________
 
 **Part A: Installing Dependencies**
