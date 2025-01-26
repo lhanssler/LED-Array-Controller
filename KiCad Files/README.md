@@ -28,6 +28,3 @@ the LED array. v4.0 avoids any confusion by not routing the TX or RX pins to the
 D-sub 37 connector. In addition to the TX and RX routing improvement, v4.0 also
 uses SMT resistors instead of through-hole resistors, resulting in a reduced PCB
 size. v3.0 and v4.0 are otherwise the same.
-
-test line
-
