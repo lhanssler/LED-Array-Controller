@@ -1,6 +1,4 @@
-_________________________________
 **KiCad Files**
-_________________________________
 
 The KiCad Files folder contains the two most recent revisions of the LED Array
 PCB (LAP): v3.0 and v4.0.
