@@ -3,20 +3,20 @@ PCB (LAP): v3.0 and v4.0.
 
 The telemetrix_controller module was designed with v3.0 in mind, and v3.0 is
 the version that is printed and populated in LL113. v3.0 contains:
-    - An Arduino Nano (used with header pins), PCA9685 IC which is SMT soldered
-        directly to the board.
-    - A through-hole D-sub 37 connector to connect to the LED array in the
-        cryostat.
-    - Through-hole resistors for each anode.
-    - Through-holes which can be used to add capacitors to GND in parallel with
-        the LED array anodes.
-    - Unconnected solder jumpers which can be used to assign an address to
-        the board's PCA9685.
-    - Two through-hole connections each for VCC, GND, OE, SDA, and SCL lines,
-        which allow multiple copies of the PCB to be daisy-chained for using
-        multiple drivers (this requires each board to have a different address,
-        as indicated through connecting solder jumpers).
-    - Pulldown resistors and an indicator LED.
+- An Arduino Nano (used with header pins), PCA9685 IC which is SMT soldered
+    directly to the board.
+- A through-hole D-sub 37 connector to connect to the LED array in the
+    cryostat.
+- Through-hole resistors for each anode.
+- Through-holes which can be used to add capacitors to GND in parallel with
+    the LED array anodes.
+- Unconnected solder jumpers which can be used to assign an address to
+    the board's PCA9685.
+- Two through-hole connections each for VCC, GND, OE, SDA, and SCL lines,
+    which allow multiple copies of the PCB to be daisy-chained for using
+    multiple drivers (this requires each board to have a different address,
+    as indicated through connecting solder jumpers).
+- Pulldown resistors and an indicator LED.
 
 There is one potential issue with v3.0: the RX and TX pins on the Arduino Nano
 are routed to the D-sub 37 connector, which implies that they can be used as
