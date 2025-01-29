@@ -230,7 +230,7 @@ class Arduino:
         '''
         if j is None:
             # i refers to LED number
-            num_rows, num_cols, num_vars = self._LEDs.shape[1]
+            num_cols = self._LEDs.shape[1]
             r = int(i / num_cols)
             c = i % num_cols
         else:
@@ -245,35 +245,6 @@ class Arduino:
         self._pin_mode(pin, 'WRITE')
         self._pin_out(pin, 0)
         self._channel_out(address, channel, *bright)
-
-    def LED_blink(self, i, j=None, num_iter=0, period=0, bright=1):
-        '''
-        'Blinks' a given LED by turning it on and off with a specified period for a
-        specified number of iterations. Calls LED_on and LED_off to turn the LED on and off.
-
-        Parameters:
-            self
-            i (int): i parameter for LED_on and LED_off
-            j (int): j parameter for LED_on and LED_off
-            num_iter (int): number of times to cycle the given LED;
-                            1 cycle is defined as 1 iteration of turning the LED on then off;
-                            default value 0 corresponds to no iterations
-            period (float): total time length of 1 cycle in seconds;
-                            the LED is turned on, then period / 2 seconds pass,
-                            the LED is turned off, then period / 2 seconds pass again for a cycle;
-                            default value 0 corresponds to turning on and off the LED with no delay
-            bright (iterable | float): bright parameter for LED_on;
-                                       default value 1 corresponds to turning the LED on at full
-                                       brightness
-
-        Returns:
-            None                             
-        '''
-        for iteration in range(num_iter):
-            self.LED_on(i, j, bright)
-            time.sleep(period / 2)
-            self.LED_off(i, j)
-            time.sleep(period / 2)
 
     def LED_off(self, i, j=None):
         '''
@@ -295,7 +266,7 @@ class Arduino:
         '''
         if j is None:
             # i refers to LED number
-            num_rows, num_cols, num_vars = self._LEDs.shape
+            num_cols = self._LEDs.shape[1]
             r = int(i / num_cols)
             c = i % num_cols
         else:
@@ -320,9 +291,40 @@ class Arduino:
         Returns:
             None
         '''
-        num_rows, num_cols, num_vars = self._LEDs.shape
+        num_rows, num_cols = self._LEDs.shape[0:2]
         num_LEDs = num_rows * num_cols
-        for i in range(num_LEDs): self.LED_off(i)
+        for i in range(num_LEDs):
+            self.LED_off(i)
+
+    def LED_blink(self, i, j=None, num_iter=0, period=1, bright=1):
+        '''
+        'Blinks' a given LED by turning it on and off with a specified period for a
+        specified number of iterations. Calls LED_on and LED_off to turn the LED on and off.
+
+        Parameters:
+            self
+            i (int): i parameter for LED_on and LED_off
+            j (int): j parameter for LED_on and LED_off
+            num_iter (int): number of times to cycle the given LED;
+                            1 cycle is defined as 1 iteration of turning the LED on then off;
+                            default value 0 corresponds to no iterations
+            period (float): total time length of 1 cycle in seconds;
+                            the LED is turned on, then period / 2 seconds pass,
+                            the LED is turned off, then period / 2 seconds pass again for a cycle;
+                            default value 1 corresponds to turning the LED on for 0.5 second then
+                            turning the LED off for 0.5 second
+            bright (iterable | float): bright parameter for LED_on;
+                                       default value 1 corresponds to turning the LED on at full
+                                       brightness
+
+        Returns:
+            None                             
+        '''
+        for _ in range(num_iter):
+            self.LED_on(i, j, bright)
+            time.sleep(period / 2)
+            self.LED_off(i, j)
+            time.sleep(period / 2)
 
     def get_attributes(self):
         '''
