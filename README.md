@@ -11,30 +11,37 @@
     Arduino and PCA9685 driver. The package uses telemetrix for the Arduino
     connection and is a dependency of telemetrix_controller.py. The package
     was sourced from: https://github.com/MrYsLab/telemetrix-extensions
-4. warm_test.txt: A text file is used to configure the LED array controller
+4. Telemetrix4Arduino: Folder containing Telemetrix4Arduino.ino, the Arduino
+    sketch file which must be opened in the Arduino IDE and uploaded to the
+    Arduino Nano before the connection from Python is established. ino files
+    can only be opened in the Arduino IDE if they are located in a folder
+    of the same name, which is why the folder is provided.
+5. warm_test.txt: A text file is used to configure the LED array controller
     when the telemetrix_controller.py module is utilized. This is the text
     file used for the January 2025 warm test in the LL130 cryostat and can be
     referenced as an example. The file is explained in more detail in Part C of
     the README.md.
-5. serial: Python's serial library, a dependency of telemetrix. serial is
+6. serial: Python's serial library, a dependency of telemetrix. serial is
     should already be installed on the host device, but some devices running
     older versions of Python have issues when telemetrix calls certain functions
     from serial. This version of serial has been shown to function properly.
-6. KiCad Files: Folder containing the KiCad files for LED Array Controller PCBs.
+7. KiCad Files: Folder containing the KiCad files for LED Array Controller PCBs.
     Revisions 3 and 4 of the board are in the folder, which includes their
     schematics and board diagrams. KiCad Files has its own README file in
     the folder.
-7. README.md: This README file.
+8. README.md: This README file.
 
 **Part B: Repository Dependencies**
 1. Arduino IDE: Download at this link: https://www.arduino.cc/en/software
-2. Telemetrix4Arduino, Arduino library: In the Arduino IDE,
-    select Tools -> Manage Libraries and search for Telemetrix4Arduino.
-    Install the library and its dependencies. The Telemetrix4Arduino example
-    file should be flashed to the Arduino to connect to Python code.
-3. telemetrix, telemetrix_pca9685, serial: Python packages included in this
+2. Telemetrix4Arduino: Arduino library. Download instructions:
+    In the Arduino IDE, select Tools -> Manage Libraries and search for
+    Telemetrix4Arduino. Install the library and its dependencies.
+3. Telemetrix4Arduino.ino, Arduino sketch: File to be uploaded to the Arduino
+    Nano to begin the serial connection. This is the Telemetrix4Arduino library
+    example file.
+4. telemetrix, telemetrix_pca9685, serial: Python packages included in this
     repository which are dependencies of the telemetrix_controller.py file.
-4. Configuration text file: The text file which defines the LED Array PCB's
+5. Configuration text file: The text file which defines the LED Array PCB's
     connection to the LED Array Controller PCB.
 
 **Part C: Instructions for Using telemetrix_controller**
@@ -48,8 +55,8 @@
     be entered as 0. The default driver address is 64 (or 0x40), which
     corresponds to none of the solder jumpers being connected on the LED Array
     Controller PCB.
-2. In the Arduino IDE, upload the Telemetrix4Arduino example file to the
-    Arduino Nano.
+2. In the Arduino IDE, upload the Telemetrix4Arduino.ino file to the Arduino
+    Nano.
 3. In Python, import telemetrix_controller. No other explicit imports are
     required for repository use.
 4. In Python, create an object from the telemetrix_controller.Arduino class. The
