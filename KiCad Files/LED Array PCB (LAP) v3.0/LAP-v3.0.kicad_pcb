@@ -9190,7 +9190,7 @@
   (gr_text "1/1" (at 185.928 183.388) (layer "F.SilkS") (tstamp 60df268d-890d-4c3d-a29d-c127e6f5cba1)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
-  (gr_text "LED Array Controller v3.0" (at 186.944 189.992) (layer "F.SilkS") (tstamp 76a85489-53d6-4721-8be8-2d2ee93b8b51)
+  (gr_text "LED Array Controller" (at 186.944 189.992) (layer "F.SilkS") (tstamp 76a85489-53d6-4721-8be8-2d2ee93b8b51)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
   (gr_text "L.Hanssler 20240905 v3.0\nLED Array Controller\n" (at 95.25 116.205 90) (layer "F.SilkS") (tstamp 8818200c-0745-4321-861a-abb0929b9ba8)
