@@ -49,7 +49,10 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_edge_clearance|142510000|39116000|e457322e-d792-45c5-80b1-b29c30820d35|f44dfe6a-de13-47e6-9836-eb84320120aa",
+        "silk_edge_clearance|150390000|39116000|e457322e-d792-45c5-80b1-b29c30820d35|c7460360-b6f2-4c5b-9655-74a5bfd0d795"
+      ],
       "meta": {
         "version": 2
       },
@@ -392,7 +395,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Nano-Driver 2.1 (LAC4.1).kicad_pro",
+    "filename": "LAP-v4.0.kicad_pro",
     "version": 1
   },
   "net_settings": {

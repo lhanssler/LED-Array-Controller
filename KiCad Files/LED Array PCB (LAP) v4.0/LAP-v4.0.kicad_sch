@@ -2194,15 +2194,15 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 78b76411-76a2-4429-9e5f-046afbc00d5b)
   )
-  (text "09/05/2024" (at 207.01 194.31 0)
+  (text "01/31/2025" (at 207.01 194.31 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bc39d131-5d75-4d46-a457-14316511ad7d)
   )
-  (text "3" (at 269.24 194.31 0)
+  (text "4" (at 269.24 194.31 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d33bf235-52c5-4dc3-86a2-1b932c2c73db)
   )
-  (text "LED Array Controller v3.0" (at 186.69 190.5 0)
+  (text "LED Array Controller" (at 186.69 190.5 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ee870cd6-212f-4990-8a7c-f1444e4535a4)
   )
@@ -2884,7 +2884,7 @@
     (pin "1" (uuid ca63733d-e577-4626-9e91-de904171862d))
     (pin "2" (uuid f1d1f596-1ba3-496b-92fb-6e3d13e58d79))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "SJ0") (unit 1)
         )
@@ -2910,7 +2910,7 @@
     (pin "2" (uuid d8cb3a51-f529-4302-8c3a-14d0bebeb653))
     (pin "1" (uuid 2d6da1aa-d0db-4f6c-8809-cd6eab2cbaa5))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "R5") (unit 1)
         )
@@ -2964,7 +2964,7 @@
     (pin "13" (uuid b4694cfa-eaad-4bb8-a359-5dd4989f8999))
     (pin "14" (uuid eb615030-74e0-46e8-8102-30125ce967b8))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "A1") (unit 1)
         )
@@ -2989,7 +2989,7 @@
     )
     (pin "1" (uuid e9aa181d-60a6-4095-a06f-566573cf72aa))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "TP4") (unit 1)
         )
@@ -3014,7 +3014,7 @@
     )
     (pin "1" (uuid c4fcc56c-55db-471d-be7f-bf8775fe1dea))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "#PWR013") (unit 1)
         )
@@ -3040,7 +3040,7 @@
     (pin "2" (uuid 8cb64ffb-5cda-406d-9c5a-80e83b8f5e96))
     (pin "1" (uuid c0bfc32e-695f-42f0-a88c-5b6ae370e75b))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "C2_6") (unit 1)
         )
@@ -3066,7 +3066,7 @@
     (pin "2" (uuid 5516598c-b49c-4501-9aea-3828b936d554))
     (pin "1" (uuid 0c712839-3f88-4aaa-9910-745863ef2185))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "C2_9") (unit 1)
         )
@@ -3091,7 +3091,7 @@
     )
     (pin "1" (uuid 32fc6eb4-8c4c-4580-b7b3-0ed58aaadbc2))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "#PWR025") (unit 1)
         )
@@ -3117,7 +3117,7 @@
     (pin "2" (uuid 1e8a6142-fe03-4089-ac9f-badc3b7abad9))
     (pin "1" (uuid 1284278e-0083-475c-b80f-ff6d40d827d4))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "C2_13") (unit 1)
         )
@@ -3143,7 +3143,7 @@
     (pin "2" (uuid 1921eb26-fc96-4f32-8f37-82a5d8401334))
     (pin "1" (uuid 22381ffb-ebc5-4568-9429-c7c15a0e04da))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "RG2") (unit 1)
         )
@@ -3168,7 +3168,7 @@
     )
     (pin "1" (uuid 774c2716-8743-417d-a184-57cb59127933))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "#PWR03") (unit 1)
         )
@@ -3194,7 +3194,7 @@
     (pin "2" (uuid 35a6b53d-f325-4d5d-b45c-b85d3066195b))
     (pin "1" (uuid 3ae6e1c3-5631-4eb3-b82f-fc5404b00680))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "C2_10") (unit 1)
         )
@@ -3220,7 +3220,7 @@
     (pin "2" (uuid cd98f2c1-4de3-42c5-ba2c-a52a7a1f5850))
     (pin "1" (uuid 0ea39743-46ad-456e-8e96-b037a4abdb1f))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "R6") (unit 1)
         )
@@ -3245,7 +3245,7 @@
     )
     (pin "1" (uuid 84bf424a-f7f1-4a0a-bc39-d9a54eeea84d))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "TP0") (unit 1)
         )
@@ -3271,7 +3271,7 @@
     (pin "2" (uuid 8e8a9914-f415-48e3-ada2-3d34cf1c8fb5))
     (pin "1" (uuid 68c1df1c-4068-44f9-a1d4-bce004b8e522))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "RG5") (unit 1)
         )
@@ -3297,7 +3297,7 @@
     (pin "2" (uuid 3602f4c2-883b-4607-a44a-5342e281cb44))
     (pin "1" (uuid 8995f9f2-1f8a-454c-b49e-f80d3b2786e4))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "C2_12") (unit 1)
         )
@@ -3322,7 +3322,7 @@
     )
     (pin "1" (uuid d092e973-a729-4915-be2e-8a8203e41a4c))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "#PWR012") (unit 1)
         )
@@ -3347,7 +3347,7 @@
     )
     (pin "1" (uuid ce9fad4a-d30a-446c-bd67-c83b516e5574))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "#PWR030") (unit 1)
         )
@@ -3372,7 +3372,7 @@
     )
     (pin "1" (uuid 5b18583b-5d88-47c7-9c69-a82214b3ae05))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "#PWR027") (unit 1)
         )
@@ -3398,7 +3398,7 @@
     (pin "2" (uuid cba3a8d7-b93d-40c6-9084-769e376e7680))
     (pin "1" (uuid 3eb52022-f6e3-458c-b4a7-995d4fee1337))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "R11") (unit 1)
         )
@@ -3424,7 +3424,7 @@
     (pin "1" (uuid 77a5ce9c-dfaa-48be-9f56-be47783dc940))
     (pin "2" (uuid ad3bfc18-da31-4cc1-a4d5-7d570b92577b))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "SJ2") (unit 1)
         )
@@ -3449,7 +3449,7 @@
     )
     (pin "1" (uuid 7d6b1a6f-ee2f-435d-9e2a-e86c477a9406))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "#PWR026") (unit 1)
         )
@@ -3501,7 +3501,7 @@
     (pin "1" (uuid 37811823-8fe5-4b5d-b329-db8eb88299e8))
     (pin "15" (uuid d6334af0-abb8-4dee-8014-c2b776b9cbb7))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "U2") (unit 1)
         )
@@ -3527,7 +3527,7 @@
     (pin "2" (uuid f1952a51-dcf8-4b0e-9329-b10beadac8b4))
     (pin "1" (uuid 0c230a56-4bab-4d04-acdb-25f44cf0bb05))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "R4") (unit 1)
         )
@@ -3552,7 +3552,7 @@
     )
     (pin "1" (uuid 23a20105-fe1d-4fa3-9524-7b742390ca46))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "#PWR028") (unit 1)
         )
@@ -3578,7 +3578,7 @@
     (pin "2" (uuid 31d7e968-1646-401d-b7bf-4a80e7e9112a))
     (pin "1" (uuid 6be6bf97-f6ce-4c7f-b395-8331a4c21106))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "RG4") (unit 1)
         )
@@ -3604,7 +3604,7 @@
     (pin "2" (uuid ec3c98ec-e003-4a61-8eb7-5da7961fe719))
     (pin "1" (uuid b59fc1a2-beb6-468e-83ea-e21af0cbc3a7))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "R0") (unit 1)
         )
@@ -3630,7 +3630,7 @@
     (pin "2" (uuid 996169c1-babe-4e51-b6f1-28e4cbf54273))
     (pin "1" (uuid dc8e36b4-26ad-43d2-8a44-23a13671640f))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "R3") (unit 1)
         )
@@ -3656,7 +3656,7 @@
     (pin "2" (uuid 21b52ccd-532a-4e55-8aca-f442d5bbe52b))
     (pin "1" (uuid a06ccdcc-831d-4aa6-ba8c-4a39cdc29b14))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "R1") (unit 1)
         )
@@ -3682,7 +3682,7 @@
     (pin "2" (uuid 208451bd-b3ba-40e9-9a21-943bbbd1ee7b))
     (pin "1" (uuid 0e647a0f-c7fc-40ca-b448-7d69efd2246d))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "RG0") (unit 1)
         )
@@ -3707,7 +3707,7 @@
     )
     (pin "1" (uuid d62723fd-b9fb-46af-a422-f4583e9fb7f5))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "#PWR020") (unit 1)
         )
@@ -3732,7 +3732,7 @@
     )
     (pin "1" (uuid f802b074-74c1-4275-a566-9ab0232b66f2))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "TP1") (unit 1)
         )
@@ -3761,7 +3761,7 @@
     (pin "4" (uuid 96d040d2-1f6c-4ff9-ba09-36a134e32c04))
     (pin "1" (uuid ccfea3a6-29bd-40db-8b5c-f9c2083c9f6d))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "U_Out1") (unit 1)
         )
@@ -3787,7 +3787,7 @@
     (pin "2" (uuid c2a1b699-33da-4a56-8b9a-905c65c3551f))
     (pin "1" (uuid 9f25365a-6b93-4bc5-9e4d-d7c345ac444d))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "C2_0") (unit 1)
         )
@@ -3812,7 +3812,7 @@
     )
     (pin "1" (uuid 359b76a0-6f30-49db-b219-58b7711135cf))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "#PWR02") (unit 1)
         )
@@ -3837,7 +3837,7 @@
     )
     (pin "1" (uuid da7d1b08-16d6-495c-8097-cf8256a90fdf))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "TP2") (unit 1)
         )
@@ -3863,7 +3863,7 @@
     (pin "2" (uuid 0e611734-3781-4d69-bc1d-c5025022a7d9))
     (pin "1" (uuid 416aa30a-ea28-457e-b946-5831fe238497))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "C2_4") (unit 1)
         )
@@ -3889,7 +3889,7 @@
     (pin "2" (uuid 9e975acf-ca6d-43dd-86cf-86ace00e0232))
     (pin "1" (uuid 11dfef1e-6441-40fc-a029-3a92e965f6ce))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "R9") (unit 1)
         )
@@ -3914,7 +3914,7 @@
     )
     (pin "1" (uuid 34f33aa2-4aff-4e56-bb47-acb721a24fb8))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "#PWR019") (unit 1)
         )
@@ -3940,7 +3940,7 @@
     (pin "1" (uuid 5a0bc901-0474-4386-97fd-d01ef3af22dd))
     (pin "2" (uuid 2ad57142-adc8-43d5-a7fb-7315d5a81e73))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "SJ1") (unit 1)
         )
@@ -3965,7 +3965,7 @@
     )
     (pin "1" (uuid 4a1d3572-21fc-4fd5-96f4-227aee024458))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "#PWR011") (unit 1)
         )
@@ -3991,7 +3991,7 @@
     (pin "2" (uuid b8b74152-05ad-4a16-9d05-efb2136464a8))
     (pin "1" (uuid 4f0884a3-907b-4ad1-8942-d716f4d40e2c))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "R2") (unit 1)
         )
@@ -4017,7 +4017,7 @@
     (pin "2" (uuid 3f118d8a-5066-4a3b-8b6d-732748a3e4ad))
     (pin "1" (uuid a913eab0-21f6-4951-9c66-cc60a6e361c5))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "R14") (unit 1)
         )
@@ -4042,7 +4042,7 @@
     )
     (pin "1" (uuid c967f131-1b1d-42ca-96c4-3864d5a84c68))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "#PWR015") (unit 1)
         )
@@ -4068,7 +4068,7 @@
     (pin "2" (uuid 2806fdc7-9098-4c0f-8ba2-c6ad115a80c7))
     (pin "1" (uuid c8dac74e-50df-4ff0-83f5-66b0b0c4d643))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "C2_2") (unit 1)
         )
@@ -4094,7 +4094,7 @@
     (pin "2" (uuid 6e0f38ba-960a-40e7-99f5-3b350540f896))
     (pin "1" (uuid 7d5d8818-7207-4fa5-9028-5e3646060814))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "R10") (unit 1)
         )
@@ -4120,7 +4120,7 @@
     (pin "1" (uuid 641768a2-7bfa-49fa-904f-1a452e1e011a))
     (pin "2" (uuid 9d8341a8-4d27-4e2d-b7b0-1b9b8ae705d7))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "SJ4") (unit 1)
         )
@@ -4146,7 +4146,7 @@
     (pin "2" (uuid 69291839-d91a-4d5c-bc73-5c6755d32bca))
     (pin "1" (uuid 891968ef-be54-4373-a5af-8dcfa25aa99a))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "ROE1") (unit 1)
         )
@@ -4171,7 +4171,7 @@
     )
     (pin "1" (uuid 9ed739ff-4440-4bde-9c8a-eda1de67b79a))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "#PWR018") (unit 1)
         )
@@ -4196,7 +4196,7 @@
     )
     (pin "1" (uuid 21f76429-a510-488b-9cf1-2d9bae7aba6f))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "#PWR021") (unit 1)
         )
@@ -4221,7 +4221,7 @@
     )
     (pin "1" (uuid 88c87b28-629b-4385-b40b-4609c6a88cb8))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "#PWR010") (unit 1)
         )
@@ -4247,7 +4247,7 @@
     (pin "2" (uuid 6df737ce-350c-4527-a7d4-d687294c3d25))
     (pin "1" (uuid f01c1ea8-d1fd-402d-a31a-bb5be14efeb2))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "R2SCL1") (unit 1)
         )
@@ -4273,7 +4273,7 @@
     (pin "2" (uuid 3c87b653-567e-4a0d-bd7e-c083faa36571))
     (pin "1" (uuid 64b39f6f-4d23-4b6c-9a98-997b8d679c61))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "C2_5") (unit 1)
         )
@@ -4299,7 +4299,7 @@
     (pin "1" (uuid 061641b3-8051-421e-9247-968d66c693d7))
     (pin "2" (uuid d528de58-bd94-499f-80b5-ac5ae9f81ec5))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "SJ5") (unit 1)
         )
@@ -4325,7 +4325,7 @@
     (pin "2" (uuid 29abb637-9bb4-4818-9b99-0edbeb43410d))
     (pin "1" (uuid 1f06663f-970c-443d-9ce7-8d65457367e0))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "RVCC1") (unit 1)
         )
@@ -4350,7 +4350,7 @@
     )
     (pin "1" (uuid 7e5ca149-c5bf-4c43-8382-503b65ae06b7))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "#PWR029") (unit 1)
         )
@@ -4376,7 +4376,7 @@
     (pin "2" (uuid 87fcb951-b5c2-4759-9aca-084d1588851f))
     (pin "1" (uuid b9f42f51-5053-4dd9-ac69-a4f73e2175c1))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "R8") (unit 1)
         )
@@ -4402,7 +4402,7 @@
     (pin "2" (uuid f138d451-3ce7-4505-9b1e-c77fd37984ea))
     (pin "1" (uuid 62f770d4-6b4d-492f-8928-abbfd5419856))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "R15") (unit 1)
         )
@@ -4428,7 +4428,7 @@
     (pin "2" (uuid 257bd793-cde7-4ee5-a9a1-5dc2865392f5))
     (pin "1" (uuid af0eef46-b140-414a-bc1d-83f12537971d))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "C2_1") (unit 1)
         )
@@ -4453,7 +4453,7 @@
     )
     (pin "1" (uuid 45e97997-07ef-4ecc-8577-68cf01deb120))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "#PWR07") (unit 1)
         )
@@ -4479,7 +4479,7 @@
     (pin "2" (uuid 010699ed-2f2d-4dd2-9ca8-6bcaddf94b3b))
     (pin "1" (uuid 84942924-79f2-40df-a92e-1744b49cf5e9))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "RG1") (unit 1)
         )
@@ -4505,7 +4505,7 @@
     (pin "2" (uuid 12f4f0f1-6d85-46a5-a535-09616e05bb51))
     (pin "1" (uuid e3db6174-4116-4652-9f9d-521b6c2cb778))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "R13") (unit 1)
         )
@@ -4531,7 +4531,7 @@
     (pin "2" (uuid 0c0ed7aa-ea6f-4da8-a769-6c720f8b167d))
     (pin "1" (uuid 92f81461-dff3-47a8-964a-b2b74934c952))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "R12") (unit 1)
         )
@@ -4557,7 +4557,7 @@
     (pin "2" (uuid adba0c87-97b5-449f-8379-249e62119407))
     (pin "1" (uuid 5de61702-f6ed-48b5-a0d5-9936e46b3e66))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "C2_3") (unit 1)
         )
@@ -4582,7 +4582,7 @@
     )
     (pin "1" (uuid b77f22dd-1754-45c7-9b1f-884189704e11))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "#PWR09") (unit 1)
         )
@@ -4607,7 +4607,7 @@
     )
     (pin "1" (uuid 2e9d5c60-9361-4f8a-b663-6a2299ae5840))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "#PWR016") (unit 1)
         )
@@ -4632,7 +4632,7 @@
     )
     (pin "1" (uuid 088e4f0f-23a5-4019-a69a-8432237f2212))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "#PWR06") (unit 1)
         )
@@ -4658,7 +4658,7 @@
     (pin "2" (uuid 477e35f2-e545-428a-8e56-faa31be5e01a))
     (pin "1" (uuid 2d544274-040f-4754-b7c0-088d98d376ee))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "LED1") (unit 1)
         )
@@ -4683,7 +4683,7 @@
     )
     (pin "1" (uuid 7199b5a9-5e73-4596-bdf7-3210638d3904))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "TP5") (unit 1)
         )
@@ -4708,7 +4708,7 @@
     )
     (pin "1" (uuid abe36ed6-329d-483f-a818-cb6b6453344f))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "#PWR01") (unit 1)
         )
@@ -4733,7 +4733,7 @@
     )
     (pin "1" (uuid df1233b5-eb09-4a2a-b85b-a58900818df7))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "#PWR08") (unit 1)
         )
@@ -4758,7 +4758,7 @@
     )
     (pin "1" (uuid eec55f2b-6563-4d4b-8360-ec25ba04ea14))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "#PWR05") (unit 1)
         )
@@ -4783,7 +4783,7 @@
     )
     (pin "1" (uuid adcd3513-533a-4a20-96b3-af634011d6d6))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "#PWR014") (unit 1)
         )
@@ -4808,7 +4808,7 @@
     )
     (pin "1" (uuid 81813d1b-5c6c-4be8-b836-ff4a797361fe))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "TP3") (unit 1)
         )
@@ -4834,7 +4834,7 @@
     (pin "2" (uuid cc76f1b4-5525-4b2c-a42b-67344e258060))
     (pin "1" (uuid 899d1c27-c304-4af9-a982-9fa4005ea58c))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "C2_7") (unit 1)
         )
@@ -4859,7 +4859,7 @@
     )
     (pin "1" (uuid 10d20801-27d9-442a-aa22-07ef0802473f))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "#PWR031") (unit 1)
         )
@@ -4885,7 +4885,7 @@
     (pin "2" (uuid f748a77f-bc24-4b25-820c-a2b6e32abb82))
     (pin "1" (uuid ce65936b-f26a-46a7-99e8-5c25f5c2db6e))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "R7") (unit 1)
         )
@@ -4914,7 +4914,7 @@
     (pin "4" (uuid 98360e17-8003-4668-aeed-e435b37ed5b6))
     (pin "1" (uuid 12a73202-2ecd-4a46-8d02-05b595a36a67))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "U_In1") (unit 1)
         )
@@ -4940,7 +4940,7 @@
     (pin "2" (uuid 32c2ed7d-7c22-488d-a207-d18a9e97e27d))
     (pin "1" (uuid 48537576-aecf-4183-b10c-97086fa6c15d))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "C2_14") (unit 1)
         )
@@ -4966,7 +4966,7 @@
     (pin "2" (uuid 34de3a16-3e61-42a1-9bfc-7d82711e661f))
     (pin "1" (uuid 97960ad4-f263-4a96-9ba4-c2229951a25a))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "C2_15") (unit 1)
         )
@@ -4992,7 +4992,7 @@
     (pin "1" (uuid 524d3770-1b98-4991-b191-a6315eec7838))
     (pin "2" (uuid e051f609-d05e-4982-aed9-7d944e0b7bdd))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "SJ3") (unit 1)
         )
@@ -5018,7 +5018,7 @@
     (pin "2" (uuid b3221064-ed5e-4ce7-bce6-8a3772060b6b))
     (pin "1" (uuid 9f2fa0b5-4f4b-482d-be59-2b50c8e928c0))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "RG3") (unit 1)
         )
@@ -5043,7 +5043,7 @@
     )
     (pin "1" (uuid 0c3be672-6275-4b8c-962f-87d0c39a04c6))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "#PWR017") (unit 1)
         )
@@ -5105,7 +5105,7 @@
     (pin "19" (uuid 7067f4be-be2f-443c-a5fb-5fb3e5aa7660))
     (pin "2" (uuid 885afe5a-6bbb-4c3c-bcfa-b6ed13bd14df))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "J1") (unit 1)
         )
@@ -5131,7 +5131,7 @@
     (pin "2" (uuid 404ae692-5a4e-4803-820b-0550a8d1531a))
     (pin "1" (uuid deabe6f7-99e1-4a43-9ff5-086388db8d05))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "R2SDA1") (unit 1)
         )
@@ -5156,7 +5156,7 @@
     )
     (pin "1" (uuid 87704dc2-c61b-4819-bdae-8699dcccb90b))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "#PWR04") (unit 1)
         )
@@ -5182,7 +5182,7 @@
     (pin "2" (uuid 4d5202eb-2a6c-45a5-9024-769094a8be9f))
     (pin "1" (uuid 0eb8746a-e64b-4360-8308-588991b44651))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "C1") (unit 1)
         )
@@ -5208,7 +5208,7 @@
     (pin "2" (uuid b79ccddf-bf6c-4fa7-95f6-2406396e58b8))
     (pin "1" (uuid c216e27e-29e4-44d0-9082-a28cc76e4295))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "C2_11") (unit 1)
         )
@@ -5234,7 +5234,7 @@
     (pin "2" (uuid cd18c5bc-ba4b-4a2f-9c4a-5ce884d00d07))
     (pin "1" (uuid f2ae88c4-b4e7-4129-9a68-eefd50068860))
     (instances
-      (project "Nano-Driver 2.1 (LAC4.1)"
+      (project "LAP-v4.0"
         (path "/ae1c1faf-9cc7-4f47-a15b-a9e9fd242762"
           (reference "C2_8") (unit 1)
         )
